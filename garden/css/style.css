@@ -96,3 +96,17 @@ body {
   font-variant: small-caps;
   color: #678570;
 }
+.header__wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+.logo {
+  margin-right: auto;
+}
+.nav__list {
+  display: flex;
+  gap: 50px;
+
+}
