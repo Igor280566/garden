@@ -66,13 +66,23 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
 
 h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
-
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .container {
-  max-width: 1220px;
+  max-width: 1190px;
   padding: 0 10px;
   margin: 0 auto;
 }
