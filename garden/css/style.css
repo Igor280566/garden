@@ -47,3 +47,42 @@
   src: url(../font/FredokaOne-Regular.woff);
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+ 
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #262C27;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Gilroy, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  font-variant: small-caps;
+  color: #678570;
+}
