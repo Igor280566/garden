@@ -163,10 +163,22 @@ body {
   padding: 10px 30px;
 }
 .promo {
+  position: relative;
   display: flex;
   gap: 30;
-  margin-bottom: 160px;
+  margin-bottom: 200px;
 }
+.promo::after {
+  position: absolute;
+  content: '';
+  background-color: #FFFFFF;
+  top: 709px;
+  left: 553px;
+  width: 745px;
+  height: 110px;
+  z-index: 4;
+}
+
 .promo-left {
   flex-basis: 616px;
   padding-top: 120px;
@@ -279,5 +291,78 @@ body {
   width: 694px;
   height: 598px;
   z-index: 2;
+}
+.landscape {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  background: #FFFFFF;
+  box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.13);
+  border-radius: 28px;
+  z-index: 2;
+}
+.landscape::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/landscape-bg.png);
+  top: -280px;
+  left: -230px;
+  width: 466px;
+  height: 466px;
+  z-index: 1;
+}
+.landscape::after {
+  
+}
 
+}
+
+
+.landscape__wrap {
+  position: relative;
+  max-width: 280px;
+  margin-left: 160px;
+}
+.landscape__wrap::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/landscape-flower.png);
+  top: -150px;
+  left: -260px;
+  width: 288px;
+  height: 350px;
+}
+.landscape__title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  font-variant: small-caps;
+  color: #374A3D;
+  margin-bottom: 10px;
+}
+.landscape__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5B7262;
+}
+.landscape__list {
+  display: flex;
+  justify-content: space-between;
+}
+.landscape__list-item {
+  flex-basis: 160px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #678570;
+}
+.landscape__list-item span {
+  display: block;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 42px;
+  color: #0CA941;
+  margin-bottom: 10px;
 }
