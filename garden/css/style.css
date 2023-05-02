@@ -41,7 +41,7 @@
 }
 
 @font-face {
-  font-family: FredokaOne;
+  font-family: Fredoka One;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -91,6 +91,7 @@ body {
 }
 .header {
   position: relative;
+  margin-bottom: 84px;
 }
 .header::before {
   position: absolute;
@@ -160,4 +161,32 @@ body {
   color: #FFFFFF;
   background-color: #0CA941;
   padding: 10px 30px;
+}
+.promo {
+  display: flex;
+  gap: 30;
+}
+.promo-left {
+  flex-basis: 616px;
+  padding-top: 120px;
+}
+.promo__title {
+  font-family: 'Fredoka One';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 76px;
+  font-variant: small-caps;
+  color: #374A3D;
+  margin-bottom: 38px;
+}
+.promo__title span {
+  color: #0CA941;
+}
+.promo-right {
+  position: relative;
+  flex-basis: 698px;
+}
+.promo__portrait {
+  position: absolute;
+  left: 85px;
 }
