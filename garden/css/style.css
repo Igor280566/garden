@@ -165,6 +165,7 @@ body {
 .promo {
   display: flex;
   gap: 30;
+  margin-bottom: 160px;
 }
 .promo-left {
   flex-basis: 616px;
