@@ -182,6 +182,41 @@ body {
 .promo__title span {
   color: #0CA941;
 }
+.promo__text {
+  max-width: 480px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  font-variant: small-caps;
+  color: #707070;
+  margin-bottom: 40px;
+}
+.main__btn {
+  position: relative;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #374A3D;
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+.main__btn::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-border.png);
+  top: -21px;
+  left: -39px;
+  width: 180px;
+  height: 68px;
+}
 .promo-right {
   position: relative;
   flex-basis: 698px;
@@ -189,4 +224,5 @@ body {
 .promo__portrait {
   position: absolute;
   left: 85px;
+  
 }
