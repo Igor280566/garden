@@ -195,6 +195,20 @@ body {
 }
 .main__btn {
   position: relative;
+} 
+.main__btn::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/promo-arrow.png);
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 235px;
+  width: 112px;
+  height: 88px;
+
+}
+.main__btn--promo {
+  position: relative;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
@@ -208,7 +222,7 @@ body {
   margin-left: 40px;
   margin-bottom: 100px;
 }
-.main__btn::before {
+.main__btn--promo::before {
   position: absolute;
   content: '';
   background-image: url(../img/main-btn-border.png);
@@ -217,12 +231,52 @@ body {
   width: 180px;
   height: 68px;
 }
+.main__btn--promo::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-vector.png);
+  top: 6px;
+  left: 87px;
+  width: 18px;
+  height: 11px;
+}
+.promo__cactus {
+  position: relative;
+  margin-bottom: 60px;
+}
+.promo-left__img {
+  position: absolute;
+  top: -111px;
+  left: 345px;
+}
 .promo-right {
   position: relative;
   flex-basis: 698px;
 }
 .promo__portrait {
   position: absolute;
+  top: 0;
   left: 85px;
-  
+  z-index: 3;
+}
+.promo-right::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/promo-right-bg.png);
+  top: 265px;
+  left: -292px;
+  width: 514px;
+  height: 514px;
+  z-index: 1;
+}
+.promo-right::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/portrait-bg.png);
+  top: 30px;
+  left: 12px;
+  width: 694px;
+  height: 598px;
+  z-index: 2;
+
 }
