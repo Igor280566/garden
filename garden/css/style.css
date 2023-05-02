@@ -119,16 +119,13 @@ body {
   position: absolute;
   content: '';
   background-image: url(../img/pot.png);
-  top: 0;
-  left: 0;
+  top: -55px;
+  left: -170px;
   width: 135px;
-  height: 235px;
-  margin-right: 45px;
-
+  height: 230px;
 }
 
 .header__wrap {
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -149,6 +146,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #1D3B53;
+  cursor: pointer;
 }
 .header__btn {
   font-family: 'Gilroy';
@@ -156,4 +154,10 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #1D3B53;
+  cursor: pointer;
+}
+.header__btn:hover {
+  color: #FFFFFF;
+  background-color: #0CA941;
+  padding: 10px 30px;
 }
