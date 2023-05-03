@@ -361,3 +361,79 @@ body {
   color: #0CA941;
   margin-bottom: 10px;
 }
+.gardener {
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  margin-bottom: 90px;
+}
+.gardener-left {
+  position: relative;
+}
+.gardener-left::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/gardener-bg-circle.png);
+  background-repeat: no-repeat;
+  top: -81px;
+  left: -146px;
+  width: 514px;
+  height: 514px;
+  z-index: 1;
+}
+.gardener-left::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/gardener-bg-little-circle.png);
+  background-repeat: no-repeat;
+  top: 178px;
+  left: 340px;
+  width: 355px;
+  height: 355px;
+  z-index: 1;
+}
+.gardener__title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #374A3D;
+  margin-bottom: 30px;
+}
+.gardener__text {
+  margin-bottom: 40px;
+}
+.main__btn--gardener {
+  position: relative;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #374A3D;
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+.main__btn--gardener::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-border.png);
+  top: -21px;
+  left: -39px;
+  width: 180px;
+  height: 68px;
+}
+.main__btn--gardener::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-vector.png);
+  top: 6px;
+  left: 95px;
+  width: 18px;
+  height: 11px;
+}
