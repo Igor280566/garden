@@ -437,3 +437,88 @@ body {
   width: 18px;
   height: 11px;
 }
+.service {
+  display: flex;
+  gap: 106px;
+}
+.service-left {
+  flex-basis: 458px;
+}
+.service__title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #374A3D;
+  margin-bottom: 40px;
+}
+.service__text {
+  margin-bottom: 30px;
+}
+.main__btn--service {
+  position: relative;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #374A3D;
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+.main__btn--service::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-border.png);
+  top: -21px;
+  left: -39px;
+  width: 180px;
+  height: 68px;
+}
+.main__btn--service::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/main-btn-vector.png);
+  top: 6px;
+  left: 95px;
+  width: 18px;
+  height: 11px;
+}
+.service-right {
+  display: flex;
+  gap: 30px;
+}
+.service__card {
+  max-width: 268px;
+  background: #FFFFFF;
+  box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
+  border-radius: 10px;
+}
+.service__card-img {
+  display: block;
+  margin: 0 auto 15px;
+}
+.service__card-title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  font-variant: small-cap
+  color: #374A3D;
+}
+.service__card-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+
+
