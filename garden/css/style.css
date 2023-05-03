@@ -301,6 +301,7 @@ body {
   box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.13);
   border-radius: 28px;
   z-index: 2;
+  margin-bottom: 110px;
 }
 .landscape::before {
   position: absolute;
