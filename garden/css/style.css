@@ -439,6 +439,7 @@ body {
 }
 .service {
   display: flex;
+  align-items: center;
   gap: 106px;
 }
 .service-left {
@@ -491,6 +492,7 @@ body {
 }
 .service-right {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 .service__card {
@@ -498,6 +500,11 @@ body {
   background: #FFFFFF;
   box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
   border-radius: 10px;
+}
+.service__card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .service__card-img {
   display: block;
