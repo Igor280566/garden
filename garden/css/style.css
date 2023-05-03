@@ -442,6 +442,12 @@ body {
   align-items: center;
   gap: 106px;
 }
+.service::before {
+
+}
+.service::after {
+
+}
 .service-left {
   flex-basis: 458px;
 }
@@ -491,11 +497,14 @@ body {
   height: 11px;
 }
 .service-right {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.service__card {
+.service__card-one,
+.service__card-two,
+.service__card-three {
   max-width: 268px;
   background: #FFFFFF;
   box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
@@ -526,6 +535,83 @@ body {
   text-align: center;
   padding: 20px 15px;
 }
+
+.service__card-one {
+  position: relative;
+  z-index: 3;
+}
+.service__card-one::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/yellow-circle-bg-service.png);
+  top: 10px;
+  left: 122px;
+  width: 268px;
+  height: 264px;
+  z-index: 1;
+}
+.service__card-one::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/oval-little-red.png);
+  background-repeat: no-repeat;
+  top: -23px;
+  left: 223px;
+  width: 103px;
+  height: 90px;
+  z-index: 2;
+}
+.service__card-two {
+  position: relative;
+  z-index: 3;
+}
+.service__card-two::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/green-circle-bg-service.png);
+  top: 153px;
+  left: 158px;
+  width: 268px;
+  height: 264px;
+  z-index: 1;
+}
+.service__card-two::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/oval-little-green.png);
+  background-repeat: no-repeat;
+  top: 254px;
+  left: 188px;
+  width: 103px;
+  height: 90px;
+  z-index: 2;
+}
+.service__card-three {
+  position: relative;
+  z-index: 3;
+}
+.service__card-three::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/green-circle-bg-service.png);
+  top: 10px;
+  left: 164px;
+  width: 268px;
+  height: 264px;
+  z-index: 1;
+}
+.service__card-three::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/oval-little-green.png);
+  background-repeat: no-repeat;
+  top: 67px;
+  left: -69px;
+  width: 103px;
+  height: 90px;
+  z-index: 2;
+}
+
 
 
 
