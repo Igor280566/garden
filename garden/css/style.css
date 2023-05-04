@@ -711,6 +711,7 @@ body {
   border-radius: 19px;
   padding-top: 95px;
   padding-bottom: 130px;
+  margin-bottom: 130px;
 }
 .subscribe::before {
   position: absolute;
@@ -752,11 +753,6 @@ body {
 .subscribe__wrap {
   text-align: center;
 }
-
-
-
- 
- 
  input[type="text"] {
   width: 436px; 
   height: 82px;
@@ -781,5 +777,16 @@ body {
   border-radius: 10px;
   width: 222px; 
   height:82px;
+ }
+ .footer__logo-img {
+  margin-bottom: 20px;
+ }
+ .footer__text {
+  max-width: 300px;
+  margin-bottom: 35px;
+ }
+ .footer__social-list {
+  display: flex;
+  gap: 25px;
  }
 
