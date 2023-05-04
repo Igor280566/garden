@@ -58,6 +58,7 @@
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 ul {
   margin: 0;
@@ -441,6 +442,7 @@ body {
   display: flex;
   align-items: center;
   gap: 106px;
+  margin-bottom: 120px;
 }
 .service::before {
 
@@ -497,11 +499,11 @@ body {
   height: 11px;
 }
 .service-right {
-  position: relative;
   display: flex;
   align-items: center;
   gap: 30px;
 }
+
 .service__card-one,
 .service__card-two,
 .service__card-three {
@@ -540,6 +542,7 @@ body {
   position: relative;
   z-index: 3;
 }
+
 .service__card-one::before {
   position: absolute;
   content: '';
