@@ -444,12 +444,7 @@ body {
   gap: 106px;
   margin-bottom: 120px;
 }
-.service::before {
 
-}
-.service::after {
-
-}
 .service-left {
   flex-basis: 458px;
 }
@@ -614,7 +609,101 @@ body {
   height: 90px;
   z-index: 2;
 }
-
-
+.choose {
+  padding-top: 10px;
+  margin-bottom: 130px;
+}
+.choose__title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #374A3D;
+  margin-bottom: 20px;
+}
+.choose__text {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+}
+.choose__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.choose__card {
+  max-width: 360px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.36);
+  border-radius: 37px;
+  padding: 30px 40px;
+}
+.choose__card-img {
+  display: block;
+  margin: 0 auto;
+}
+.choose__card-title {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #374A3D;
+  margin-bottom: 10px;
+}
+.choose__card-comment {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  font-variant: small-caps;
+  color: #678570;
+  padding-left: 150px;
+  margin-bottom: 20px;
+}
+.choose__card-comment::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/stars.png);
+  background-repeat: no-repeat;
+  top: 3px;
+  left: 15px;
+  width: 145px;
+  height: 25px;
+}
+.choose__card-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.choose__card-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 32px;
+}
+.choose__card-price span {
+  display: block;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-variant: small-caps;
+  color: #0CA941;
+}
+.choose__card-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(55, 74, 61, 0.36);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
 
 
