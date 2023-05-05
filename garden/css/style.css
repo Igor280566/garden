@@ -767,7 +767,13 @@ body {
   width: 222px; 
   height:82px;
   top: 0px;
-  left: 700px;
+  left: 691px;
+  cursor: pointer;
+ }
+ input[type="button"]:hover {
+  color: #171817;
+  background-color: #93d215;
+  transition: .5s;
  }
  .footer {
   position: relative;
