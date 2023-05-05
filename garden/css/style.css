@@ -88,7 +88,7 @@ body {
 }
 .header {
   position: relative;
-  margin-bottom: 84px;
+  margin-bottom: 45px;
 }
 .header::before {
   position: absolute;
