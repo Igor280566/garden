@@ -753,8 +753,11 @@ body {
 .subscribe__wrap {
   text-align: center;
 }
+.subscribe__form {
+  position: relative;
+}
  input[type="text"] {
-  width: 436px; 
+  width: 658px; 
   height: 82px;
   background-color: #FFFFFF;
   border: 1px solid #0CA941;
@@ -769,6 +772,7 @@ body {
   
  } 
  input[type="button"] {
+  position: absolute;
   color: #FFFFFF;
   text-align: center;
   background-color: #0CA941;
@@ -777,6 +781,8 @@ body {
   border-radius: 10px;
   width: 222px; 
   height:82px;
+  top: 0px;
+  left: 700px;
  }
  .footer {
   position: relative;
