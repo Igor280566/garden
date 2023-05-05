@@ -518,7 +518,7 @@ body {
   line-height: 24px;
   text-align: center;
   padding: 20px 15px;
-}
+}/*
 .service__card-one {
   position: relative;
   z-index: 3;
@@ -593,7 +593,25 @@ body {
   width: 103px;
   height: 90px;
   z-index: 2;
+} */
+.service {
+  max-width: 1300px;
+  position: relative;
+  background-image: url(../img/yellow-circle-bg-service.png),
+   url(../img/green-circle-bg-service.png),
+   url(../img/green-circle-bg-service.png);
+   background-repeat: no-repeat;
+   background-position: 398px -216px, 452px -27px, 71px 834px;
 }
+
+.service-right {
+  background-image: url(../img/oval-little-red.png),
+  url(../img/oval-little-green.png),
+  url(../img/oval-little-green.png);
+  background-repeat: no-repeat;
+  background-position: 230px 126px, 217px 391px, 486px 259px;
+}
+
 .choose {
   padding-top: 10px;
   margin-bottom: 130px;
