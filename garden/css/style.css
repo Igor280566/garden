@@ -428,6 +428,7 @@ body {
   height: 11px;
 }
 .service {
+  max-width: 1340px;
   display: flex;
   align-items: center;
   gap: 106px;
@@ -595,21 +596,43 @@ body {
   z-index: 2;
 } */
 .service {
-  max-width: 1300px;
-  position: relative;
+
   background-image: url(../img/yellow-circle-bg-service.png),
-   url(../img/green-circle-bg-service.png),
    url(../img/green-circle-bg-service.png);
    background-repeat: no-repeat;
-   background-position: 398px -216px, 452px -27px, 71px 834px;
+   background-position: 398px -216px, 452px -27px;
 }
 
 .service-right {
   background-image: url(../img/oval-little-red.png),
-  url(../img/oval-little-green.png),
   url(../img/oval-little-green.png);
   background-repeat: no-repeat;
-  background-position: 230px 126px, 217px 391px, 486px 259px;
+  background-position: 230px 126px, 217px 391px;
+}
+.service__card-two {
+  position: relative;
+  z-index: 2;
+}
+.service__card-two::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/green-circle-bg-service.png);
+  top: 153px;
+  left: 158px;
+  width: 268px;
+  height: 264px;
+  z-index: 0;
+}
+.service__card-two::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/oval-little-green.png);
+  background-repeat: no-repeat;
+  top: 254px;
+  left: 188px;
+  width: 103px;
+  height: 90px;
+  z-index: 1;
 }
 
 .choose {
