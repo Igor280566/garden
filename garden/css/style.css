@@ -743,6 +743,7 @@ body {
  input[type="text"] {
   width: 658px; 
   height: 82px;
+  padding-left: 20px;
   background-color: #FFFFFF;
   border: 1px solid #0CA941;
   border-radius: 10px;
