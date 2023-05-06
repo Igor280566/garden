@@ -722,7 +722,7 @@ body {
   background-image: url(../img/subscribe-bg-yellow.png),
   url(../img/subscribe-bg-green.png);
   background-repeat: no-repeat;
-  background-position: 0px -304px, 606px -508px;
+  background-position: 0px -304px, 755px -508px;
 }
 /*
 .subscribe::before {
@@ -809,7 +809,7 @@ body {
   background-image: url(../img/footer-bg-circle-green.png),
   url(../img/footer-bg-circle-yellow.png);
   background-repeat: no-repeat;
-  background-position: 0px 110px, 658px 95px;
+  background-position: 0px 110px, 626px 95px;
  }
  /*
  .footer::before {
