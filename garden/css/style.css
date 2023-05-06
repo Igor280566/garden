@@ -155,6 +155,9 @@ body {
   color: #FFFFFF;
   background-color: #0CA941;
 }
+.main-container {
+  max-width: 1600px;
+} 
 .promo {
   position: relative;
   display: flex;
@@ -428,7 +431,6 @@ body {
   height: 11px;
 }
 .service {
-  
   display: flex;
   align-items: center;
   gap: 106px;
@@ -717,7 +719,12 @@ body {
   padding-top: 95px;
   padding-bottom: 130px;
   margin-bottom: 130px;
+  background-image: url(../img/subscribe-bg-yellow.png),
+  url(../img/subscribe-bg-green.png);
+  background-repeat: no-repeat;
+  background-position: 0px -304px, 606px -508px;
 }
+/*
 .subscribe::before {
   position: absolute;
   content: '';
@@ -737,7 +744,7 @@ body {
   left: 780px;
   width: 514px;
   height: 514px;
-}
+}*/
 .subscribe__title {
   font-family: 'Fredoka One';
   font-style: normal;
@@ -787,7 +794,7 @@ body {
   width: 222px; 
   height:82px;
   top: 0px;
-  left: 691px;
+  left: 702px;
   cursor: pointer;
  }
  input[type="button"]:hover {
